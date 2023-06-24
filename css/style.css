@@ -3,7 +3,7 @@
 }
 .form-control {
     border: none;
-    background: #f3f3f3;
+    background: #efeded;
 }
 
 .form-control:active,
@@ -36,6 +36,8 @@
 .btn {
     border: none;
     border-radius: 4px !important;
+    background: black;
+    color: white;
 }
 
 .btn.btn-primary {
@@ -55,9 +57,12 @@
     box-shadow: none;
 }
 
-.form-group{
+main .sty .form-group{
     margin-bottom: 1rem;
 }
 #message {
     resize: vertical;
+}
+img{
+    width: 70%;
 }
