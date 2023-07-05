@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>SingIn</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">
+                <h1>Let's talk about everything!</h1>
+                <p style="padding: 10px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab
+                    harum vel asperiores porro perspiciatis illo? Laborum,
+                    magnam
+                    enim vitae a nisi, quam soluta autem similique adipisci
+                    error
+                    quas tempore? Molestias?
+                </p>
+                <img src="undraw-contact.svg"
+                    alt="Background Image" width="80%" height="80%">
+
+            </div>
+            <div class="form">
+                <form onsubmit="validationFrom(event)">
+                    <div class="form-outline">
+                        <input type="text" class="form-control" id="name"
+                            placeholder="Your Name">
+                    </div>
+                    <div class="form-outline">
+                        <input type="email" class="form-control" id="email"
+                            placeholder="Email">
+                    </div>
+                    <div class="form-outline">
+                        <input type="text" class="form-control" id="subject"
+                            placeholder="Subject">
+                    </div>
+                    <div class="form-outline">
+                        <textarea class="form-control" id="message"
+                            placeholder="Write your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+                    <div id="errorMessage" style="display: none; color: red;">
+                    </div>
+                    <div id="successMessage" style="display: none;color: green;">
+                        Successfully submitted data!
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="validaion.js"></script>
+    </body>
+</html>
