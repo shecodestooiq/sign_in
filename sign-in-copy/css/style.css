@@ -67,8 +67,14 @@ img{
 
 .form-group{
     margin-bottom: 1rem;
-    
 }
+input{
+    width: 600px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
 #message {
     resize: vertical;
 }
+
