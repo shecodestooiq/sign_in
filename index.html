@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+       <div class="container">
+            <div class="col1">
+               <h2>Lets talk about everythink</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero consequatur maxime labore repellendus sed eaque</p>
+               <img src="./images/undraw-contact.svg" alt="" width="650" height="620" />
+    
+            </div>
+            <div class="col2">
+                <form id="myForm" onsubmit="return validationform(event)">
+                    <div class="form-group">
+                      <input type="text" class="form-control"  id="name"   placeholder="your name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="subj" placeholder="subject">
+                    </div class="form-control">
+                    <div class="form-group">
+                        <textarea class="form-control" id="textarea1" rows="3" placeholder="write your message"></textarea>
+                      </div>
+                    <button type="submit"  id="btn">Send message</button><br>
+                    <div id="error">
+                    </div>
+                  </form>
+            </div>
+         </div>
+         
+         
+
+
+       </div>
+    </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
