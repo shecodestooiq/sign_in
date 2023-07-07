@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sign-In</title>
+  </head>
+  <!--  content container row col-md-6-->
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Let's talk about everything!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae vero excepturi animi, deserunt blanditiis qui rem.
+            Veniam, itaque temporibus autem unde cum recusandae assumenda,
+            voluptatum excepturi, aliquam ex praesentium enim.
+          </p>
+          <img src="./images/undraw-contact.svg" alt="undraw img" />
+        </div>
+        <form class="form-group" method="post" onsubmit="validateForm(event)" name="formInfo">
+          <input type="text" name="name_" placeholder="Your name" class="form-control color" id="username"/>
+          <br />
+          <input type="text" name="email_" placeholder="Email" class="form-control" id="email"/>
+          <br />
+          <input type="text" name="subject_" placeholder="Subject" class="form-control" id="subject"/><br />
+          <input type="text" name="msg" placeholder="Write your message" class="form-control" id="msg"/><br />
+          <button type="submit" class="btn btn-primary form-control">Send Message</button>
+          <div id="divMsg"></div>
+        </form>
+      </div>
+    </main>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

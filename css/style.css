@@ -1,9 +1,12 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif"
+}
 .content {
     padding: 7rem 0;
 }
 .form-control {
     border: none;
-    background: #f3f3f3;
+    background: #efeded;
 }
 
 .form-control:active,
@@ -36,6 +39,8 @@
 .btn {
     border: none;
     border-radius: 4px !important;
+    background: black;
+    color: white;
 }
 
 .btn.btn-primary {
@@ -55,9 +60,35 @@
     box-shadow: none;
 }
 
-.form-group{
+main .sty .form-group{
     margin-bottom: 1rem;
 }
 #message {
     resize: vertical;
+}
+img{
+    width: 70%;
+}
+
+
+/* Grid */
+.container{
+    margin: 70px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.row > .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.row > .form-group > .form-control{
+    padding-left: 10px;
 }
