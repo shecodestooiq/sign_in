@@ -1,63 +1,34 @@
-.content {
-    padding: 7rem 0;
+.container{
+    margin: 0;
 }
-.form-control {
+img{
+    width: 90%;
+    height: 90%;
+}
+.row{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+.half{
+    align-items: center;
+}
+
+.form-control{
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+    background-color: aliceblue;
     border: none;
-    background: #f3f3f3;
+    padding: 5px;
+    padding-left: 15px;
 }
-
-.form-control:active,
-.form-control:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-color: #000;
-    background: #f3f3f3;
-}
-
-.col-form-label {
-    color: #000;
-}
-
-.btn,
-.form-control,
-.custom-select {
-    height: 50px;
-}
-
-.custom-select:active,
-.custom-select:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-color: #000;
-}
-
-.btn {
-    border: none;
-    border-radius: 4px !important;
-}
-
-.btn.btn-primary {
-    background: #000;
+.btn{
+    background-color: #000;
     color: #fff;
-    padding: 15px 20px;
-}
-
-.btn:hover {
-    color: #fff;
-}
-
-.btn:active,
-.btn:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.form-group{
-    margin-bottom: 1rem;
-}
-#message {
-    resize: vertical;
 }
